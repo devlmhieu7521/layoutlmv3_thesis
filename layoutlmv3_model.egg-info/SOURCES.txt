@@ -1,0 +1,6 @@
+README.md
+setup.py
+layoutlmv3_model.egg-info/PKG-INFO
+layoutlmv3_model.egg-info/SOURCES.txt
+layoutlmv3_model.egg-info/dependency_links.txt
+layoutlmv3_model.egg-info/top_level.txt
