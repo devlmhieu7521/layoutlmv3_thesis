@@ -1,0 +1,1 @@
+from layoutlmv3_model.object_detection.ditod import add_vit_config
