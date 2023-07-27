@@ -40,7 +40,7 @@ from transformers.models.roberta.modeling_roberta import (
 )
 from transformers.utils import logging
 
-from .configuration_layoutlmv3 import LayoutLMv3Config
+from .configuration_layoutlmv3 import LayoutLMv3Config_2
 from timm.models.layers import to_2tuple
 
 
@@ -209,8 +209,8 @@ class LayoutLMv3PreTrainedModel(PreTrainedModel):
     models.
     """
 
-    config_class = LayoutLMv3Config
-    base_model_prefix = "layoutlmv3"
+    config_class = LayoutLMv3Config_2
+    base_model_prefix = "layoutlmv3_2"
 
     # Copied from transformers.models.bert.modeling_bert.BertPreTrainedModel._init_weights
     def _init_weights(self, module):

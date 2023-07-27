@@ -12,8 +12,8 @@ LAYOUTLMV3_PRETRAINED_CONFIG_ARCHIVE_MAP = {
 }
 
 
-class LayoutLMv3Config(BertConfig):
-    model_type = "layoutlmv3"
+class LayoutLMv3Config_2(BertConfig):
+    model_type = "layoutlmv3_2"
 
     def __init__(
         self,
